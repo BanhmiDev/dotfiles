@@ -1,0 +1,12 @@
+{
+  "stateful_widget": {
+    "prefix": "stful",
+    "body": "class ${1:MyWidget} extends StatefulWidget {\n  const ${1:MyWidget}({super.key});\n\n  @override\n  State<${1:MyWidget}> createState() => _${1:MyWidget}State();\n}\n\nclass _${1:MyWidget}State extends State<${1:MyWidget}> {\n  @override\n  Widget build(BuildContext context) {\n    return ${2:Container()};\n  }\n}",
+    "description": "Create a StatefulWidget"
+  },
+  "stateless_widget": {
+    "prefix": "stless",
+    "body": "class ${1:MyWidget} extends StatelessWidget {\n  const ${1:MyWidget}({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return ${2:Container()};\n  }\n}",
+    "description": "Create a StatelessWidget"
+  }
+}
