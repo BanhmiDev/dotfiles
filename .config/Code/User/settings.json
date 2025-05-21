@@ -1,0 +1,19 @@
+{
+    "editor.stickyScroll.enabled": false,
+    "editor.fontFamily": "'Cascadia Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 13,
+    "dart.flutterSdkPath": "/home/banhmi/flutter/flutter",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    // Increases project compatibility with the C# extension.
+    "dotnet.preferCSharpExtension": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "window.customTitleBarVisibility": "auto",
+    "github.copilot.selectedCompletionModel": ""
+}
+
