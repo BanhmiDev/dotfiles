@@ -2,11 +2,9 @@ return {
 	"folke/tokyonight.nvim",
 	priority = 1000,
 	config = function()
-		local transparent = false
-
 		require("tokyonight").setup({
 			style = "night",
-			transparent = transparent,
+			transparent = true,
 			styles = {
 				sidebars = transparent and "transparent" or "dark",
 				floats = transparent and "transparent" or "dark",
