@@ -6,6 +6,9 @@ set -e
 # List of packages to install
 PACKAGES=(
     xfce4-terminal # Terminal on Wayland
+    zoxide
+    neovim
+    wireguird
 )
 
 # Function to install packages using pacman
