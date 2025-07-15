@@ -17,7 +17,7 @@ return {
 			require("mason-lspconfig").setup()
 
 			vim.lsp.enable("lua_ls")
-			vim.lsp.enable("omnisharp")
+			vim.lsp.enable("csharp_ls")
 			vim.lsp.enable("ols")
 			vim.lsp.enable("zls")
 			vim.lsp.enable("clangd")
@@ -54,10 +54,10 @@ return {
 					map("<leader>dr", vim.lsp.buf.references, "Goto References")
 					map("<leader>di", vim.lsp.buf.implementation, "Goto Implementation")
 
-					map("<leader>rn", vim.lsp.buf.rename, "rename")
-					map("<leader>wf", vim.lsp.buf.format, "format")
+					map("<leader>dn", vim.lsp.buf.rename, "rename")
+					map("<leader>df", vim.lsp.buf.format, "format")
 
-					map("<leader>rs", ":LspRestart<CR>", "restart LSP")
+					map("<leader>dl", ":LspRestart<CR>", "restart LSP")
 
 					vim.keymap.set(
 						"v",
