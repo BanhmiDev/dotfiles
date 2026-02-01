@@ -1,6 +1,6 @@
 {
     "editor.stickyScroll.enabled": false,
-    "editor.fontFamily": "'Cascadia Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font','Cascadia Mono', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 13,
     "dart.flutterSdkPath": "/home/banhmi/flutter/flutter",
     "dotnetAcquisitionExtension.enableTelemetry": false,
@@ -10,10 +10,22 @@
     "github.copilot.enable": {
         "*": true,
         "plaintext": true,
-        "markdown": false,
+        "markdown": true,
         "scminput": false
     },
     "window.customTitleBarVisibility": "auto",
-    "github.copilot.selectedCompletionModel": ""
+    "github.copilot.selectedCompletionModel": "",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "continue.telemetryEnabled": false,
+    "continue.enableTabAutocomplete": false,
+    "github.copilot.chat.summarizeAgentConversationHistory.enabled": false,
+    "github.copilot.chat.responsesApiReasoningSummary": "off",
+    "dart.flutterHotReloadOnSave": "never",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "files.exclude": {
+        "**/*.import": true
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "material-code.primaryColor": "#4285F4"
 }
 

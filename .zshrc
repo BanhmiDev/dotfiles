@@ -33,6 +33,7 @@ alias nvidiapoor='sudo nvidia-smi -pl 100'
 alias webcam='gphoto2 --stdout --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -f v4l2 /dev/video0'
 alias servehtml='python -m http.server 8081'
 alias servephp='php -S localhost:8081'
+alias vim='nvim'
 
 # NVM
 source /usr/share/nvm/init-nvm.sh
